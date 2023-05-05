@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Показ Веб-трансляции</title>
+  </head>
+  <body>
+    <h1>Веб Трансляция Вебкамеры</h1>
+    <img src="{{ url_for('camera_feed', source='camera') }}">
+    <h1>Веб Трансляция Экрана</h1>
+    <img src="{{ url_for('screen_feed', source='screen') }}">
+  </body>
+</html>
