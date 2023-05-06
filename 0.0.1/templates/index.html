@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web camera and screen</title>
+  </head>
+  <body>
+    <h1>Веб WebCamera</h1>
+    <img src="{{ url_for('camera_feed', source='camera') }}">
+    <h1>Веб Screen</h1>
+    <img src="{{ url_for('screen_feed', source='screen') }}">
+  </body>
+</html>
